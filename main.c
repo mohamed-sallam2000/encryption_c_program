@@ -11,7 +11,7 @@ void encrypt_ECB_from_text(char *  );
 
 
 void decrypt_CBC_from_file(FILE * file_input,FILE * file_output);
-void decrypt_CBC_from_text(char * data_input,char * data_output );
+void decrypt_CBC_from_text();
 
 void read_data_from_file(char * data,FILE * file);
 
@@ -175,6 +175,7 @@ void take_choise_from_user()
 void take_algorithm_type_from_user(int * choise_p)
 {
     int res=0;
+     system("cls");
     printf("**choose one of the following algorithms  \n**1-CBC algorithm\n**2-ECB algorithm\n**3-return to main  options\n");
     scanf("%d",&res);
     if (res==1||res==2||res==3)
@@ -219,7 +220,7 @@ for(i=0;i<strlen(data_input);i++)
     }
 }
 
-void decrypt_CBC_from_text(char ){
+void decrypt_CBC_from_text( ){
 
 
 
