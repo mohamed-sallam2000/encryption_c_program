@@ -15,6 +15,14 @@ void open_file (FILE *file)
             perror("Error opening the file");
         }
     }
+
+    else{
+
+        printf("cant find the file \n");
+                    take_choise_from_user();
+
+
+    }
 }
 
 int get_key_length (void)
