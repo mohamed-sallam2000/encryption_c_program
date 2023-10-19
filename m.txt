@@ -1,0 +1,87 @@
+*Encryption Project Contract*
+
+*This Encryption Project Contract* ("Contract") is entered into on this [Date] by and between:
+
+*Party A (Provider):*
+- *Team Naruto* represented by [Your Name]
+- Address: [Your Address]
+- Email: [Your Email]
+- Phone: [Your Phone Number]
+
+*Party B (Customer):*
+- *Ahmed Elkady*
+- Address: [Ahmed's Address]
+- Email: [Ahmed's Email]
+- Phone: [Ahmed's Phone Number]
+
+*And*
+
+- *Mahmoud Ali*
+- Address: [Mahmoud's Address]
+- Email: [Mahmoud's Email]
+- Phone: [Mahmoud's Phone Number]
+
+*Collectively referred to as "Parties."*
+
+*Project Description:*
+
+*Naruto Team* (Provider) agrees to provide encryption services to *Ahmed Elkady* and *Mahmoud Ali* (Customers). The project's scope, timeline, and deliverables are outlined in the project proposal, which is attached hereto as Exhibit A and incorporated by reference.
+
+*Terms and Conditions:*
+
+1. *Payment:*
+   - The Customers shall pay the Provider as described in Exhibit A.
+   - Payments shall be made as outlined in Exhibit A and are non-refundable.
+
+2. *Project Timeline:*
+   - The project will commence on [Start Date] and is expected to be completed by [End Date], as detailed in Exhibit A.
+
+3. *Confidentiality:*
+   - Both Parties agree to maintain the confidentiality of all project-related information, data, and intellectual property.
+
+4. *Intellectual Property:*
+   - All intellectual property developed as part of this project shall be the property of the Customers upon completion and payment.
+
+5. *Liability:*
+   - The Provider shall not be liable for any loss, damage, or misuse of encrypted data following project completion.
+   
+6. *Termination:*
+   - Either Party may terminate this contract with a written notice of at least [Number of Days] days.
+
+7. *Force Majeure:*
+   - Neither Party shall be liable for any delay or failure in performance due to circumstances beyond their control.
+
+8. *Governing Law:*
+   - This Contract shall be governed by and construed in accordance with the laws of [Your Jurisdiction].
+
+*Entire Agreement:*
+
+This Contract, including any attachments or exhibits, constitutes the entire agreement between the Parties and supersedes all prior agreements and understandings, whether oral or written.
+
+*Signatures:*
+
+By signing below, the Parties acknowledge that they have read, understood, and agree to the terms and conditions of this Contract.
+
+*Party A (Provider):*
+
+Signature: __________
+Name: [Your Name]
+Date: __________
+
+*Party B (Customer - Ahmed Elkady):*
+
+Signature: __________
+Name: Ahmed Elkady
+Date: __________
+
+*Party B (Customer - Mahmoud Ali):*
+
+Signature: __________
+Name: Mahmoud Ali
+Date: __________
+
+*Exhibit A - Project Proposal:*
+
+[Attach the project proposal with a detailed description of the project scope, timeline, and payment details.]
+
+*Please make sure to consult with a legal professional to ensure that this contract meets all relevant legal requirements and is suitable for your specific project.*
