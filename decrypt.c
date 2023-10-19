@@ -43,7 +43,7 @@ void decrypt_file (FILE *file)
         fputc(decrypted_ch, generated);
     }}
 
- printf(" char= %d %c",ch,ch);
+
     save_file (file);
     fclose(generated);
 }

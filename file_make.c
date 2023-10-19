@@ -1,6 +1,5 @@
 #include"file_make.h"
  FILE *original_file;
- char * pass="123456";
  char filename[256];  // Maximum file name length of 255 characters
  char key[256];  // Maximum key length of 255 characters
 int key_length;
@@ -53,42 +52,47 @@ void take_choise_from_user()
 
     int choice=0;
     int algorithm_type=0;
-    printf("**choose one of the following \n**1-encrypt file\n**2-decrypt file\n**3-change password\n**4-close the program\n");
+    //printf("\t\t\t**choose one of the following**\t\t\t\t      **\n**1-encrypt file\t\t\t\t\t\t\t\t      **\n**2-decrypt file\t\t\t\t\t\t\t\t      **\n**3-close the program \t\t\t\t\t\t\t\t      **\n");
+     //   printf("****************************************************************************************\n");
+    printf("+===========================================================================================+\n")   ;
+    printf("|                                          encryption program                               |\n")   ;
+    printf("+===========================================================================================+\n")   ;
+    printf("| 1 | Encrypt File                                                                          |\n")   ;
+    printf("|---|---------------------------------------------------------------------------------------|\n")   ;
+    printf("| 2 | Decrypt File                                                                          |\n")   ;
+    printf("|---|---------------------------------------------------------------------------------------|\n")   ;
+    printf("| 0 | Exit                                                                                  |\n")   ;
+    printf("+===========================================================================================+\n")   ;
     scanf(" %d", &choice);
     switch(choice)
     {
     case 1:
-        printf("Enter the file name: ");
+        printf("**Enter the file name: \t\t\t\n");
         get_filename();
-        printf("Enter key: ");
+        printf("**Enter key: \t\t\t\n");
         get_key();
         open_file(original_file);
 
         encrypt_file(original_file);
 
-        printf("file is encrypted successfully \n");
+        printf("**file is encrypted successfully \t\t\t\n");
         take_choise_from_user();
         break;
     case 2:
-        printf("Enter the file name: ");
+        printf("**Enter the file name: \t\t\t\n");
         get_filename();
-        printf("Enter key: ");
+        printf("**Enter key: \t\t\t\n");
         get_key();
         open_file(original_file);
         decrypt_file(original_file);
-        printf("file is  decrypted successfully \n");
+        printf("**file is  decrypted successfully \t\t\t\n");
         take_choise_from_user();
 
         break;
-        case 3:
-             printf("**enter new password \n");
-
-
-        scanf(" %7[^\n]", pass);
 
 
 
-    case 4:
+    case 0:
         exit(0);
         break;
     default:
