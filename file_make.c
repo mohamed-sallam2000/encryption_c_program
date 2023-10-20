@@ -3,6 +3,14 @@
  char filename[256];  // Maximum file name length of 255 characters
  char key[256];  // Maximum key length of 255 characters
 int key_length;
+
+
+/**
+*function name : open_file
+*description:open the file  to read  or  write  it
+*arguments: function pointer to file
+*return: void
+**/
 void open_file (FILE *file)
 {
     if (access(filename, F_OK) != -1)  // Return -1 in case of it  exist
@@ -24,12 +32,22 @@ void open_file (FILE *file)
 
     }
 }
-
+/**
+*function name : get_key_length
+*description:return the length of the key
+*arguments: void
+*return: integer the length
+**/
 int get_key_length (void)
 {
     return strlen(key);
 }
-
+/**
+*function name : get_key
+*description:sore  key in array from user
+*arguments: void
+*return: void
+**/
 void get_key (void)
 {
     if (scanf("%255s", key) != 1)
@@ -42,7 +60,12 @@ void get_key (void)
     }
 }
 
-
+/**
+*function name : get_filename
+*description:take name  of  file from user
+*arguments: void
+*return: void
+**/
 void get_filename (void)
 {
     if (scanf("%255s", filename) != 1)
@@ -54,16 +77,21 @@ void get_filename (void)
         }
 }
 
-
+/**
+*function name : take_choise_from_user
+*description:take choice  from user  and  call the  corresponding function
+*arguments: /void
+*return:void
+**/
 void take_choise_from_user()
 {
 
     int choice=0;
-    int algorithm_type=0;
+
     //printf("\t\t\t**choose one of the following**\t\t\t\t      **\n**1-encrypt file\t\t\t\t\t\t\t\t      **\n**2-decrypt file\t\t\t\t\t\t\t\t      **\n**3-close the program \t\t\t\t\t\t\t\t      **\n");
      //   printf("****************************************************************************************\n");
     printf("+===========================================================================================+\n")   ;
-    printf("|                                          encryption program                               |\n")   ;
+    printf("|                                    encryption program                                     |\n")   ;
     printf("+===========================================================================================+\n")   ;
     printf("| 1 | Encrypt File                                                                          |\n")   ;
     printf("|---|---------------------------------------------------------------------------------------|\n")   ;
@@ -112,7 +140,12 @@ void take_choise_from_user()
     }
 }
 
-
+/**
+*function name : save_file
+*description:save file after  using it
+*arguments: pointer to file
+*return: void
+**/
 void save_file (FILE *file)
 {
     fclose(file);

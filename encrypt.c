@@ -4,17 +4,29 @@
 char filename[256];  // Maximum file name length of 255 characters
 char key[256];  // Maximum key length of 255 characters
 int  key_length;
+/**
+*function name : Encryption
+*description:function take  character and  key  then make  encryption and  return the output
+*arguments: char ob ( character to be encrypted)&&char *key (pointer to char is a key for encryption )
+*return: char (the encrypted output)
+**/
 char Encryption(char ob,char *key)
 {
     static char i = 0;
     char ret = 0;
-       ret = (unsigned char )((unsigned char)ob ^ (unsigned char)key[i++]);
+       ret = (unsigned char )((unsigned char)ob ^ (unsigned char)key[(int)i++]);
     if(i==key_length)
     {
         i=0;
     }
     return ret;
 }
+/**
+*function name : encrypt file
+*description:function take   file and  encrypt it
+*arguments: pointer to file that  will be encrypted
+*return: void
+**/
 void encrypt_file (FILE *file)
 {
     char ch,encrypted_ch;
